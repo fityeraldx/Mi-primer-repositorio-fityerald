@@ -1,0 +1,47 @@
+body {
+    font-family: 'Modak', cursive;
+}
+
+form {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    color: pink;
+    font-size: 50px;
+    position: sticky;
+    width: 100%;
+    z-index: 2;
+}
+
+tr:nth-child(even){
+    background-color: #c9c9c9;
+}
+tr:nth-child(odd){
+    background-color: #dcdcdc;
+}
+tr {
+    background-color: pink;
+}
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+table {
+    float: left
+}
+
+.rosado {
+    color: white!important;
+    background-color: pink!important;
+}
+
+.btn-mi-rosa {
+    background-color: pink;
+    border-color: pink;
+    color: white!important;
+}
+
+.btn-mi-rosa:hover {
+    background-color: #e8a9b4;
+}
